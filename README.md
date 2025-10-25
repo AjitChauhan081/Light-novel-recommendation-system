@@ -6,8 +6,8 @@ Currently, the **Data Scraping** stage is completed. Other stages are planned an
 ---
 
 ## Repository Structure
-
-LN-Recommendation-System/
+```
+Light-novel-Recommendation-System/
 │
 ├── 1. Data Scraping/ # ✅ Completed
 │ └── Scripts to scrape light novel metadata (titles, genres, ratings, chapters, authors, etc.)
@@ -26,8 +26,8 @@ LN-Recommendation-System/
 │
 ├── requirements.txt # Python dependencies
 ├── README.md # Project overview
-└── LICENSE(Planned)
-
+└── LICENSE # Planned
+```
 
 ---
 
@@ -73,10 +73,8 @@ LN-Recommendation-System/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/LN-Recommendation-System.git
-cd LN-Recommendation-System
-
-pip install -r requirements.txt
+git clone https://github.com/AjitChauhan081/Light-novel-Recommendation-System.git
+cd Light-novel-Recommendation-System
 
 ```
 ---
