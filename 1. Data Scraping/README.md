@@ -33,35 +33,40 @@ git clone https://github.com/AjitChauhan081/Light-novel-recommendation-system.gi
 cd '1. Data Scraping'
 
 pip install -r requirements.txt
+```
+---
+##  🧪 Synthetic Dataset
 
-
-🧪 Synthetic Dataset
-
-This repository includes a synthetic dataset (sample_synthetic.csv) with randomly generated data that mimics real-world structures.
+This repository includes a synthetic dataset (sample_synthetic.csv) with randomly generated data that mimics real-world 
+structures.
 It’s provided so that others can test models or data analysis pipelines without using scraped data.
 
-⚖️ Legal & Ethical Notice
+---
+
+## ⚖️ Legal & Ethical Notice
 
 Disclaimer:
 This project is for educational and research purposes only.
-
 Do not use this code to scrape or republish copyrighted or proprietary data.
-
 Always check and respect a website’s robots.txt file and Terms of Service before scraping.
-
 The author does not encourage or endorse scraping of any specific website.
-
 Any data shared in this repo (e.g., sample_synthetic.csv) is synthetic and non-real.
 
-🧑‍💻 Author
+---
 
-Ajit Chauhan
+## 🧑‍💻 Author
+
+**Ajit Chauhan**
+
 🎓 B.Tech Computer Science & Engineering
-💡 Passionate about Data Engineering, Machine Learning, and Automation
-📫 LinkedIn
- | GitHub
 
-⭐ Contributing
+💡 Passionate about Data Engineering, Machine Learning, and Automation
+
+📫 [LinkedIn](https://www.linkedin.com/in/ajitchauhan081) | [GitHub](https://github.com/AjitChauhan081)
+
+---
+
+## ⭐ Contributing
 
 Contributions and suggestions are welcome!
 If you’d like to extend the scraper or improve its modularity, feel free to:
@@ -72,12 +77,9 @@ Create a new branch
 
 Submit a pull request
 
-📜 License
+---
 
-This project is licensed under the MIT License — see the LICENSE
- file for details.
-
-🧭 Summary
+## 🧭 Summary
 
 This project teaches:
 
@@ -89,4 +91,5 @@ How to use synthetic datasets responsibly
 
 Use it to learn — not to exploit websites.
 
+---
 
