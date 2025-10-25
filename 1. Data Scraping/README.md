@@ -1,7 +1,44 @@
 # 🕸️ Web Light Novel Data Scraper (Educational Project)
 
-This repository demonstrates how to build a structured web scraper using **Python**, **Selenium**, and **BeautifulSoup**.  
-It can collect structured metadata such as titles, genres, tags,total_rating,average,rating,total,chapter,urls,author and other attributes from paginated web pages for **research and learning purposes**.
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
+[![Selenium](https://img.shields.io/badge/Selenium-WebDriver-orange)](https://www.selenium.dev/)
+[![pandas](https://img.shields.io/badge/pandas-2.1.0-blue)](https://pandas.pydata.org/)
+[![undetected_chromedriver](https://img.shields.io/badge/undetected--chromedriver-latest-lightgrey)](https://pypi.org/project/undetected-chromedriver/)
+
+
+This repository demonstrates how to build a **structured web scraper** using **Python**, **Selenium** And **undetected_chromedriver**.  
+It collects structured metadata from web light novel websites for **research and learning purposes**.
+
+---
+
+## Features
+
+- Scrapes metadata like:
+  - `title`, `genres`, `tags`
+  - `total_rating`, `average_rating`
+  - `total_chapters`, `chapter_urls`
+  - `author` and more
+- Handles **paginated web pages**
+- Stores data in **CSV format** (`links.csv`, `Success.csv`, `skip.csv`)
+- Processes large datasets in **batches** to bypass verification challenges
+- Demonstrates combining **Selenium** (dynamic content) and **BeautifulSoup** (HTML parsing)
+
+---
+
+## How It Works
+
+### 1️⃣ Step 1: Collect Novel Links
+- Script scrapes all novel URLs and saves them in `links.csv`.
+
+### 2️⃣ Step 2: Scrape Novel Data
+- Reads URLs from `links.csv`.
+- Scrapes detailed metadata for each novel.
+- Saves successfully scraped data in `Success.csv`.
+- Failed URLs (e.g., blocked by Cloudflare) are saved in `skip.csv`.
+
+### 3️⃣ Batch Processing
+- Scrapes links in **batches of 1000**.
+- Helps avoid wasting time on pages blocked by verification.
 
 ---
 
